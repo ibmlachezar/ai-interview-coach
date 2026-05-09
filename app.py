@@ -103,19 +103,19 @@ You generate highly specific, deeply personalised interview prep kits.
 
 Never give generic advice. Every answer, story, and tip must be tailored to THIS person's background for THIS specific role.
 
-Generate a full interview prep kit with 10 questions across 4 categories:
+Generate a full interview prep kit with 7 questions across 4 categories:
 
-CATEGORY 1: Role-specific questions (3 questions)
+CATEGORY 1: Role-specific questions (2 questions)
 Directly about the responsibilities in this job description.
 
-CATEGORY 2: Behavioral questions (3 questions)
+CATEGORY 2: Behavioral questions (2 questions)
 STAR-format questions tailored to what this role requires.
 
 CATEGORY 3: Domain/technical questions (2 questions)
 Testing specific knowledge the JD requires.
 
-CATEGORY 4: Curveball questions (2 questions)
-Unexpected questions that test how they think — specific to this role.
+CATEGORY 4: Curveball questions (1 question)
+An unexpected question that tests how they think — specific to this role.
 
 For each question provide:
 - The question itself
@@ -201,7 +201,7 @@ if submitted:
                 client = anthropic.Anthropic()
                 message = client.messages.create(
                     model="claude-sonnet-4-5",
-                    max_tokens=4000,
+                    max_tokens=8000,
                     system=SYSTEM_PROMPT,
                     messages=[{
                         "role": "user",
