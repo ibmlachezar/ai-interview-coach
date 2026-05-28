@@ -9,7 +9,7 @@ Two ways to use it: **web app** (no setup) or **Claude Code CLI** (runs locally)
 
 ---
 
-## Option 1 — Web app (fastest)
+## Option 1 — Web app ((fastest))
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
 
